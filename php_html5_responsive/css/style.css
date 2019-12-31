@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*
+ * style.css
+ *
+ *  version --- 1.0
+ *  updated --- 2013/5/10
+ */
+
+
+
+/***PC 960px ~***/
+
+/***IPAD 768px ~ 959px***/
+@media screen and (max-width: 959px) {
+	
+}
+
+/*** SP 480px ~ 767px***/
+@media screen and (max-width: 767px) {
+	
+}
+
+/*** SP 320px ~ 479px***/
+@media screen and (max-width: 479px) {
+	
+}

@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/*
+ * cmn_layout.css
+ *
+ *  version --- 1.0
+ *  updated --- 2012/3/30
+ */
+
+
+/* !HTML5 elements
+---------------------------------------------------------- */
+header, footer, nav, section, aside, article
+{ display: block;}
+
+/* !Reseting
+---------------------------------------------------------- */
+body {
+ font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',"メイリオ",Meiryo,'ＭＳ Ｐゴシック',Verdana,Arial,Helvetica,sans-serif;
+ font-size: 12px;
+ -webkit-text-size-adjust: none;
+ line-height: 1.5;
+ color: #000;
+}
+
+body.fontS{ font-size: 10px; }
+body.fontM{ font-size: 12px; }
+body.fontL{ font-size: 14px; }
+body, div, pre, p, blockquote, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, th, td
+{ margin: 0; padding: 0;}
+input, textarea
+{ margin: 0; font-size: 100%;}
+label
+{ cursor: pointer;}
+table
+{ border-collapse: collapse; border-spacing: 0; font-size: 100%;}
+fieldset, img
+{ border: 0;}
+img
+{ vertical-align: top; max-width: 100%;}
+address, caption, cite, code, dfn, em, th, var
+{ font-style: normal; font-weight: normal;}
+ol, ul
+{ list-style: none;}
+caption, th
+{ text-align: left;}
+h1, h2, h3, h4, h5, h6
+{ font-size: 100%; font-weight: normal;}
+q:after, q:before
+{ content:'';}
+a, input
+{ /* outline: none; */ }
+abbr, acronym
+{ border: 0;}
+
+
+
+/* !Clearfix
+---------------------------------------------------------- */
+.clearfix {
+	display: block;
+	min-height: 1%;
+}
+.clearfix:after {
+	clear: both;
+	content:".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+* html .clearfix {
+	height: 1%;
+	/*\*//*/
+	height: auto;
+	overflow: hidden;
+	/**/
+}
+/* !Layout
+---------------------------------------------------------- */
+html { overflow-y: scroll;}
+body { }
+@media print {
+	html,
+	html body { *zoom: 0.65;}
+}
+
+/* !wrapper
+---------------------------------------------------------- */
+#wrapper {
+	min-width:320px;
+}
+/* !header
+---------------------------------------------------------- */
+#header {
+}
+
+#headerIn {
+}
+#headerLogo {
+}
+
+#headerLinks {
+}
+.navbarToggle {
+}
+@media screen and (max-width: 959px) {
+	
+}
+/* !breadcrumb
+---------------------------------------------------------- */
+#breadcrumb {
+}
+
+#breadcrumb span {
+}
+#breadcrumb span a {
+}
+@media screen and (max-width: 959px) {
+	
+}
+/* !gNavi
+---------------------------------------------------------- */
+		
+#gNavi {
+}
+#gNavi li {
+
+}
+#gNavi li a {
+}
+#gNavi li.selected a {
+}
+#gNavi li a.parent{
+
+}
+#gNav .pulldownmenu {
+
+}
+#gNav .pulldownmenu li {
+
+}
+#gNav .pulldownmenu li a {
+
+}
+@media screen and (max-width: 959px) {
+	
+}
+/* !navbarCollapse
+---------------------------------------------------------- */
+.navbarCollapse {
+}
+.navbarCollapse li {
+
+}
+.navbarCollapse li a {
+}
+.navbarCollapse li a.subBtn {
+}
+.navbarCollapse .subUl {
+}
+.navbarCollapse .subUl li {
+
+}
+.navbarCollapse .subUl li a {
+}
+	
+@media screen and (max-width: 959px) {
+}
+
+/* !mainimg
+---------------------------------------------------------- */
+#mainimg {
+	
+}
+
+@media screen and (max-width: 959px) {
+	
+}
+
+/* !teaser
+---------------------------------------------------------- */
+#teaser {
+	
+}
+
+/* !contents
+---------------------------------------------------------- */
+#contents {
+	
+}
+#main {
+}
+
+#side {
+}
+
+
+
+/* !pageTop
+---------------------------------------------------------- */
+.pageTop {
+	position:fixed;
+	left:80%;
+	top:90%;
+	}
+
+/* !footer
+
+---------------------------------------------------------- */
+#footer {
+}
+	
+#copyright {
+}
+	
+/* !h(n)eading
+---------------------------------------------------------- */
+.h1Basic {}
+.h2Basic {}
+.h3Basic {}
+.h4Basic {}
+.h5Basic {}
+.h6Basic {}
+/* !Listing
+---------------------------------------------------------- */
+.ulBasic {
+}
+.ulBasic li {
+}
+
+.olBasic {
+}
+.olBasic li {
+}
+
+.dlBasic {
+}
+.dlBasic dt {
+}
+.dlBasic dd {
+}
+/* !Table
+---------------------------------------------------------- */
+
+.tableBasic {
+}
+.tableBasic th,
+.tableBasic td {
+}
+.tableBasic th {
+}
+.tableBasic td {
+}
+/* !Section
+---------------------------------------------------------- */
+
+.section {}
+
+
+
+
+/***PC 960px ~***/
+
+/***IPAD 768px ~ 959px***/
+@media screen and (max-width: 959px) {
+	
+}
+
+/*** SP 480px ~ 767px***/
+@media screen and (max-width: 767px) {
+	
+}
+
+/*** SP 320px ~ 479px***/
+@media screen and (max-width: 479px) {
+	
+}
+
